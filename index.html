@@ -1,0 +1,361 @@
+<!--<?php
+    require_once('config/conexao.php');
+?>-->
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Associação Filhos de Pelo</title>
+    <link rel="shortcut icon" type="png" href="assets/img/Logo.png">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&family=Young+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/style/base.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3"> <!-- TITLE -->
+            <div class="col-md-12 col-sm-12">
+                <div class="align-items-center">
+                    <h1 class="main-title">Olá, me ajuda a comer?</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row"> <!-- HERO -->
+            <div class="col-md-12 col-sm-9" id="background-orange">
+                <div class="align-items-center" id="first-middle">
+                    <img src="assets/img/mDog.png" class="middle-dog">
+                    <div class="middle-orange"></div>
+                    <p class="first-middle-text">A Associação Filhos de Pelo<br />está atuando em Catanduva<br />há mais
+                        de 3 anos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> <!-- ABOUT -->
+            <div class="col-md-12 col-sm-12">
+                <div class="align-items-center" id="second-middle">
+                    <div class="middle-red">
+                        <h1 class="second-middle-text">Quem somos nós?</h1>
+                        <div class="row mt-3">
+                            <div class="col-md-6 col-sm-12">
+                                <div class="align-items-center">
+                                    <p class="about" id="textbox-left">A Associação Filhos de Pelo, fundada em 2021 atua
+                                        em Catanduva na
+                                        proteção de animais com diversas campanhas focadas na segurança
+                                        alimentar dos nossos peludos.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="align-items-center">
+                                    <p class="about" id="textbox-right">Graças ao trabalho da nossa equipe e das doações
+                                        dos moradores
+                                        da cidade Feitiço já arrecadamos mais de 3 toneladas de ração,
+                                        que ajudaram centenas de animais contra a fome e o descaso.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row mt-3 third-middle">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="align-items-center third-content">
+                                    <p class="second-about agendastext">Agendas</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="align-items-center third-content">
+                                    <p class="second-about">Arrecadação de Ração</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="align-items-center third-content">
+                                    <p class=" latinhastext">Latinhas que <br />Alimentam</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row px-4 third-middle">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="align-items-center third-content" id="textbox-left">
+                                    <img src="./assets/img/fAgendas.png">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="align-items-center third-content">
+                                    <img src="./assets/img/fArrecadacao.png">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="align-items-center third-content" id="textbox-right">
+                                    <img src="./assets/img/fLatinha.png">
+                                </div>
+                            </div>
+                        </div>
+                        <br /> <br /> <br /> <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> <!-- DOAÇÃO -->
+            <div class="middle-orange2">
+                <div class="col-md-12 col-sm-12">
+                    <div class="align-items-center" id="first-middle">
+                        <h1 class="different">Nos ajude a fazer a diferença!</h1>
+                    </div>
+                </div>
+                <div />
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="align-items-center" id="first-middle">
+                        <input class="botao" type="submit" value="faça uma doação">
+                    </div>
+                    <img src="./assets/img/fRacao.png" class="racao">
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> <!-- RACÃOMETRO -->
+            <div class="col-md-12 col-sm-12">
+                <div class="align-items-center" id="first-middle">
+                    <div class="middle-green">
+                        <h1 class="racaometro">Raçãometro</h1>
+                        <p class="dados">dados de 2025</p>
+
+                        <div class="racometroimages">
+                            <img src="./assets/img/racometroleft.svg" class="racao1" style="width: 30%;">
+                            <img src="./assets/img/racometroright.svg" class="racao2" style="width: 30%;">
+                        </div>
+                        <br /> <br /> <br /> <br /><br /> <br /><br /> <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle-orange3"> <!-- PAINEL DE ADOÇÃO -->
+            <div class="row">
+                <div class="col-md-9 col-sm-6">
+                    <div class="align-items-center painel" id="first-middle">
+                        <h1 class="painel-adocao">Pata a Pata</h1>
+                        <input class="botao1" type="submit" value="anuncie">
+                    </div>
+                </div>
+            </div>
+            <br /> <br /> <br />
+            <div class="row px-4">
+                <div class="col-md-4 col-sm-12">
+                    <div class="align-items-center" id="first-middle">
+                        <div class="card card1">
+                            <h5 class="card-lost">Perdido</h5>
+                            <img src="./assets/img/fAdota1.png" class="card-img-top" style="width: 85%">
+                            <div class="card-body card1">
+                                <div class="row">
+                                    <div class="col-md-9 col-sm-12">
+                                        <div class="align-items-center" id="first-middle">
+                                            <h5 class="card-title">Sol</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12">
+                                        <div class="align-items-center" id="first-middle">
+                                            <i class="bi bi-whatsapp card-title"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">Visto por último: </p>
+                                <p class="card-text">Centro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="align-items-center" id="first-middle">
+                        <div class="card cards">
+                            <img src="./assets/img/fAdota2.png" class="card-img-top" style="width: 85%">
+                            <div class="card-body cards card-body1">
+                                <div class="row">
+                                    <div class="col-md-9 col-sm-12">
+                                        <div class="align-items-center" id="first-middle">
+                                            <h5 class="card-title">Ursinha</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12">
+                                        <div class="align-items-center" id="first-middle">
+                                            <i class="bi bi-whatsapp card-title"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">7 anos, Fêmea</p>
+                                <p class="card-text">Parque Iracema</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="align-items-center" id="first-middle">
+                        <div class="card cards">
+                            <img src="./assets/img/fAdota3.png" class="card-img-top" style="width: 85%">
+                            <div class="card-body cards card-body1">
+                                <div class="row">
+                                    <div class="col-md-9 col-sm-12">
+                                        <div class="align-items-center" id="first-middle">
+                                            <h5 class="card-title">Shadow</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-12">
+                                        <div class="align-items-center" id="first-middle">
+                                            <i class="bi bi-whatsapp card-title"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">5 anos, Macho</p>
+                                <p class="card-text">Bom Pastor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 col-sm-12 d-flex justify-content-end">
+                    <a href="./painel.html"><i class="bi bi-arrow-right seta"></i></a>
+                </div>
+            </div>
+            <br /> <br /><br /> <br /><br />
+        </div>
+
+        <div class="row"> <!-- PETAMIGOS -->
+            <div class="col-md-12 col-sm-12">
+                <div class="align-items-center" id="second-middle">
+                    <div class="middle-red-oth">
+                        <h1 class="second-middle-text">Nossos petamigos</h1>
+                        <br /> <br />
+                        <div class="row mt-3">
+                            <div class="col-md-12 col-sm-6">
+                                <div class="align-items-center">
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                                        data-bs-interval="3000">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row px-4 carroselnew">
+                                                    <div class="col-md-4 col-sm-12">
+                                                        <div class="align-items-center" id="first-middle">
+                                                            <div class="card cards card2">
+                                                                <img src="./assets/img/petamigos1.png" class="card-img-top"
+                                                                    style="width: 90%">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12">
+                                                        <div class="align-items-center" id="first-middle">
+                                                            <div class="card cards card2">
+                                                                <img src="./assets/img/petamigos2.png" class="card-img-top"
+                                                                    style="width: 90%">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12">
+                                                        <div class="align-items-center" id="first-middle">
+                                                            <div class="card cards card2">
+                                                                <img src="./assets/img/petamigos3.png" class="card-img-top"
+                                                                    style="width: 90%">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row px-4">
+                                                    <div class="col-md-4 col-sm-12">
+                                                        <div class="align-items-center" id="first-middle">
+                                                            <div class="card card1 card2">
+                                                                <img src="./assets/img/petamigos1.png" class="card-img-top"
+                                                                    style="width: 90%">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12">
+                                                        <div class="align-items-center" id="first-middle">
+                                                            <div class="card cards card2">
+                                                                <img src="./assets/img/petamigos1.png" class="card-img-top"
+                                                                    style="width: 90%">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12">
+                                                        <div class="align-items-center" id="first-middle">
+                                                            <div class="card cards card2">
+                                                                <img src="./assets/img/petamigos1.png" class="card-img-top"
+                                                                    style="width: 90%">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br /> <br />
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br /> <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /> <br />
+    <div class="container-fluid">
+    <div class="footer">
+        <div class="divider-main"> </div>
+        <div class="row rowcont">
+            <div class="col-md-6 col-sm-12">
+                <div>
+                    <img src="assets/img/logo-footer.svg" class="last">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 final">
+                <div class="align-items-center ultimo1">
+                    <i class="bi bi-whatsapp social"></i>
+                    <i class="bi bi-instagram social"></i>
+                    <i class="bi bi-facebook social"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="assets/js/app.js"> </script>
+</body>
+
+</html>
