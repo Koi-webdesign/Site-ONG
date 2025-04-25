@@ -1,6 +1,481 @@
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .mobile-text {
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        margin-top: 0.7rem;
+        width: 102%;
+        display: none;
+    }
 
-@media (min-width: 768px) {}
+    .main-title {
+        font-size: 3rem;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .middle-dog {
+        max-width: 100%;
+    }
+
+    #first-middle img {
+        width: 90%;
+        margin-top: -2.5rem;
+    }
+
+    .middle-orange {
+        border-radius: 2.5rem 2.5rem 0 0;
+        width: 95%;
+        height: 100%;
+        margin-bottom: -10%;
+        z-index: 0;
+    }
+
+    .first-middle-text {
+        bottom: 4.5rem;
+        left: 0;
+        padding: 2rem;
+        z-index: 2;
+        font-size: 1rem;
+        display: none;
+    }
+
+    #second-middle {
+        margin-top: -0.3rem;
+    }
+
+    .middle-red {
+        background-color: #BA0F30;
+        border-radius: 2.5rem;
+        width: 100%;
+    }
+
+    .second-middle-text {
+        font-size: 1.5rem;
+        margin-top: 6%;
+        margin-left: 6%;
+    }
+
+    .about {
+        color: #181519;
+        font-size: 1rem;
+        background-color: #f3eac0;
+        padding: 1.5rem;
+        text-wrap: pretty;
+        align-items: center;
+        border-radius: 20px;
+        height: auto;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    #textbox-right {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #textbox-left {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .middle-orange2 {
+        border-radius: 0 0 2.5rem 2.5rem;
+        width: 90%;
+        z-index: 1;
+    }
+
+    .different {
+        margin-top: 8rem;
+        font-size: 2rem;
+    }
+
+    .botao {
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .racao {
+        height: 50%;
+        width: 120%;
+        margin: 0 auto;
+        z-index: 1;
+        border-radius: 0 0 2.5rem 2.5rem;
+        margin-left: -2rem;
+    }
+
+    .middle-green {
+        width: 90%;
+        z-index: -1;
+        margin: 0 auto;
+        left: 2.5%;
+        position: relative;
+    }
+
+    .racaometro {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .dados {
+        font-size: 0.8rem;
+        margin-bottom: 6rem;
+    }
+
+    .racometroimages {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 10rem;
+    }
+
+    .racometroimages img {
+        transform: scale(2);
+    }
+
+    .ração2 {
+        margin-bottom: 5rem;
+    }
+
+    .middle-orange3 {
+        border-radius: 2.5rem 2.5rem 0 0;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    .painel-adocao {
+        font-size: 2rem;
+        margin-top: 2rem;
+        text-overflow: clip;
+    }
+    
+    .painel {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .botao1 {
+        margin-top: 0.5rem;
+        border-radius: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0em 1.5em 0em 1.5em;
+        float: flex-end;
+    }
+    .px-4{
+        gap: 4rem;
+    }
+    
+    .card-title {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    
+    .card-lost {
+        font-size: 1.2rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        width: 60%;
+        text-align: center;
+        z-index: 2;
+        position: absolute;
+        margin-top: -1.2rem;
+        border-radius: 1rem;
+    }
+
+    .card-body {
+        border-radius: 1rem;
+        margin-top: -35%;
+        width: 85%;
+    }
+    
+    .card-body1 {
+        border-radius: 1rem;
+        margin-top: -35%;
+        width: 85%;
+    }
+    
+    .bi-whatsapp {
+        font-size: 2rem;
+        margin-top: -3rem;
+        margin-left: 11rem;
+    }
+    
+    .last-red {
+        width: 110%;
+    }
+    
+    .seta {
+        font-size: 5rem;
+        width: 100%;
+        margin-right: 7.5rem;
+        color: #F3EAC0;
+    }
+    
+    .carousel-inner {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .middle-red-oth {
+        margin-top: -5rem;
+        position: relative;
+        background-color: #BA0F30;
+        border-radius: 2.5rem;
+        width: 107.5%;
+        left: 3%;
+    }
+
+    .middle-red-oth img {
+        transform: scale(2.3);
+        margin-bottom: 7rem;
+    }
+
+    .carroselnew{
+        gap: 10rem;
+        margin-top: 10rem;
+    }
+    .second-middle-text-oth {
+        font-size: 1.5rem;
+        margin-bottom: -3rem;
+        margin-top: 6%;
+        margin-left: 6%;
+        font-family: "Young Serif", serif;
+    color: #F3EAC0;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-text {
+        display: none;
+    }
+
+    .main-title {
+        font-size: 6.5rem;
+        margin-bottom: -3rem;
+        margin-top: -1rem;
+    }
+
+    .middle-dog {
+        max-width: 80%;
+    }
+
+    #first-middle img {
+        width: 40%;
+    }
+
+    .middle-orange {
+        border-radius: 9.5rem 9.5rem 0 0;
+        width: 102%;
+        height: 80%;
+        margin-bottom: -15%;
+        z-index: 0;
+    }
+
+    .first-middle-text {
+        bottom: 4.5rem;
+        left: 0;
+        padding: 3rem;
+        z-index: 2;
+        font-size: 1.7rem;
+    }
+
+    #second-middle {
+        margin-top: -7rem;
+    }
+
+    .middle-red {
+        background-color: #BA0F30;
+        border-radius: 9.5rem;
+        width: 106%;
+        margin-bottom: -1.5rem;
+    }
+
+    .second-middle-text {
+        font-size: 3.2rem;
+        margin-top: 6%;
+        margin-left: 8%;
+    }
+
+    .about {
+        color: #181519;
+        font-size: 1.6rem;
+        background-color: #f3eac0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2.5rem;
+        text-wrap: pretty;
+        align-items: center;
+        border-radius: 20px;
+        height: 13rem;
+        text-align: center;
+    }
+
+    #textbox-right {
+        margin-right: 15%;
+    }
+
+    #textbox-left {
+        margin-left: 15%;
+    }
+
+    .middle-orange2 {
+        border-radius: 0 0 9.5rem 9.5rem;
+        width: 105%;
+        margin-top: -40px;
+    }
+
+    .different {
+        margin-top: 10rem;
+        font-size: 3.2rem;
+    }
+
+    .botao {
+        border-radius: 30px;
+        font-size: 2.3rem;
+        padding: 1rem 3rem 1rem 3rem;
+        margin-top: 2rem;
+    }
+
+    .racao {
+        margin-top: -1.7rem;
+        height: 80%;
+        width: 100%;
+        z-index: 1;
+        border-radius: 0 0 5rem 5rem;
+    }
+
+    .middle-green {
+        width: 95%;
+        margin-top: -40px;
+        z-index: -1;
+    }
+
+    .racaometro {
+        font-size: 3.2rem;
+        margin-top: 6rem;
+        margin-bottom: -0.4rem;
+    }
+
+    .dados {
+        font-size: 1rem;
+        margin-left: 16%;
+        margin-bottom: -4rem;
+    }
+
+    .racometroimages {
+        margin: 0 auto;
+        gap: 16rem;
+    }
+
+    .middle-orange3 {
+        border-radius: 9.5rem 9.5rem 0 0;
+        width: 110%;
+        z-index: 1;
+    }
+    
+    .painel-adocao {
+        margin-top: 4rem;
+        font-size: 3.2rem;
+        text-overflow: clip;
+    }
+    
+    .painel {
+        width: 100%;
+        gap: 200px;
+    }
+    
+    .botao1 {
+        margin-top: 4rem;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 0em 1.5em 0em 1.5em;
+        float: flex-end;
+    }
+    
+    .card-title {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    
+    .card-lost {
+        font-size: 1.8rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        width: 60%;
+        text-align: center;
+        z-index: 2;
+        position: absolute;
+        margin-top: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    .card-body {
+        border-radius: 1.5rem;
+        margin-top: -30%;
+        width: 85%;
+    }
+    
+    .card-body1 {
+        border-radius: 1.5rem;
+        margin-top: -30%;
+        width: 85%;
+    }
+    
+    .bi-whatsapp {
+        font-size: 2.5rem;
+        margin-top: -0.7rem;
+        margin-right: -1rem;
+    }
+    
+    .last-red {
+        width: 110%;
+    }
+    
+    .seta {
+        font-size: 4rem;
+        margin-right: 50px;
+        color: #F3EAC0;
+    }
+    
+    .carousel-inner {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    .middle-red-oth {
+        background-color: #BA0F30;
+        border-radius: 9.5rem;
+        width: 110%;
+    }
+
+    .second-middle-text-oth {
+        font-size: 3.2rem;
+        margin-top: 6%;
+        margin-left: 6%;
+        font-family: "Young Serif", serif;
+    color: #F3EAC0;
+    }
+
+}
 
 body::-webkit-scrollbar {
     display: none;
@@ -27,12 +502,9 @@ p {
 /* hero section css */
 
 .main-title {
-    margin-top: -1rem;
     text-align: center;
     font-family: "Young Serif", serif;
-    font-size: 6.5rem;
     color: #181519;
-    margin-bottom: -3rem;
 }
 
 #first-middle {
@@ -42,36 +514,21 @@ p {
     align-items: center;
 }
 
-#first-middle img {
-    width: 40%;
-}
-
 .first-middle-text {
     position: absolute;
-    bottom: 4.5rem;
-    left: 0;
-    padding: 3rem;
-    z-index: 2;
     color: #F3EAC0;
     font-family: "Varela", sans-serif;
-    font-size: 1.7rem;
 }
 
 .middle-orange {
     background-color: #DC9750;
-    border-radius: 9.5rem 9.5rem 0 0;
-    width: 102%;
     position: absolute;
     bottom: 0;
-    height: 80%;
-    margin-bottom: -15%;
-    z-index: 0;
 }
 
 .middle-dog {
     position: relative;
     z-index: 1;
-    max-width: 80%;
     height: auto;
 }
 
@@ -82,52 +539,13 @@ p {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -7rem;
     z-index: 2;
     flex-direction: column;
-}
-
-.middle-red {
-    background-color: #BA0F30;
-    border-radius: 9.5rem;
-    width: 106%;
-    margin-bottom: -1.5rem;
-}
-
-.middle-red-oth {
-    background-color: #BA0F30;
-    border-radius: 9.5rem;
-    width: 110%;
 }
 
 .second-middle-text {
     font-family: "Young Serif", serif;
     color: #F3EAC0;
-    font-size: 3.2rem;
-    margin-top: 6%;
-    margin-left: 8%;
-}
-
-.about {
-    color: #181519;
-    font-size: 1.6rem;
-    background-color: #f3eac0;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2.5rem;
-    text-wrap: pretty;
-    align-items: center;
-    border-radius: 20px;
-    height: 13rem;
-    text-align: center;
-}
-
-#textbox-right {
-    margin-right: 15%;
-}
-
-#textbox-left {
-    margin-left: 15%;
 }
 
 .latinhastext {
@@ -171,21 +589,17 @@ p {
 
 .middle-orange2 {
     background-color: #DC9750;
-    border-radius: 0 0 9.5rem 9.5rem;
-    width: 105%;
     display: block;
     margin: 0 auto;
     text-align: center;
-    margin-top: -40px;
     z-index: 1;
+    margin-top: -5rem;
 }
 
 .different {
-    margin-top: 100px;
     text-align: center;
     font-family: "Young Serif", serif;
     color: #F3EAC0;
-    font-size: 3.2rem;
 }
 
 .botao {
@@ -193,99 +607,58 @@ p {
     color: #DC9750;
     background-color: #F3EAC0;
     border: solid 1px #F3EAC0;
-    border-radius: 30px;
     text-align: center;
-    font-size: 2.3rem;
     align-items: center;
     justify-content: center;
-    padding: 1rem 3rem 1rem 3rem;
-    margin-top: 2rem;
-}
-
-.racao {
-    margin-top: -1.7rem;
-    height: 80%;
-    width: 100%;
-    z-index: 1;
-    border-radius: 0 0 5rem 5rem;
 }
 
 /* ração section css */
 
 .middle-green {
     background-color: #004732;
-    width: 95%;
     margin: 0 auto;
-    display: block;
     align-items: center;
     bottom: 0;
-    margin-top: -40px;
-    z-index: -1;
 }
 
 .racaometro {
     color: #F3EAC0;
-    font-size: 3.2rem;
     font-family: "Young Serif", serif;
     text-align: center;
-    margin-top: 6rem;
-    margin-bottom: -0.4rem;
 }
 
 .dados {
     color: #F3EAC0;
-    font-size: 1rem;
     text-align: center;
-    margin-left: 16%;
-    margin-bottom: -4rem;
 }
 
 .racometroimages {
     align-items: center;
     text-align: center;
-    margin: 0 auto;
     justify-content: center;
     display: flex;
-    gap: 16rem;
 }
 
 /* painel de adoção */
 
 .middle-orange3 {
     background-color: #DC9750;
-    border-radius: 9.5rem 9.5rem 0 0;
-    width: 110%;
     display: flexbox;
     margin: 0 auto;
     text-align: center;
     margin-top: -7rem;
-    z-index: 1;
 }
 
 .painel-adocao {
-    margin-top: 4rem;
     font-family: "Young Serif", serif;
     color: #F3EAC0;
-    font-size: 3.2rem;
-    text-overflow: clip;
-}
-
-.painel {
-    width: 100%;
-    gap: 200px;
 }
 
 .botao1 {
-    margin-top: 4rem;
     font-family: "Young Serif", serif;
     color: #DC9750;
     background-color: #F3EAC0;
     border: solid 1px #F3EAC0;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 0em 1.5em 0em 1.5em;
-    float: flex-end;
 }
 
 .card1,
@@ -297,23 +670,15 @@ p {
 
 .card-body {
     background-color: #BA0F30;
-    border-radius: 1.5rem;
-    margin-top: -30%;
-    width: 85%;
 }
 
 .card-body1 {
     background-color: #004732;
-    border-radius: 1.5rem;
-    margin-top: -30%;
-    width: 85%;
 }
 
 .card-title {
     font-family: "Young Serif", serif;
     color: #F3EAC0;
-    font-size: 1.8rem;
-    width: 100%;
     text-align: left;
     line-height: 150%;
     letter-spacing: -3%;
@@ -323,56 +688,24 @@ p {
 .card-lost {
     font-family: "Young Serif", serif;
     color: #F3EAC0;
-    font-size: 1.8rem;
-    width: 100%;
     text-align: left;
     line-height: 150%;
     letter-spacing: -3%;
     text-wrap: balance;
     background-color: #BA0F30;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.2prem;
-    padding-bottom: 0.2rem;
-    width: 60%;
     text-align: center;
     z-index: 2;
     position: absolute;
-    margin-top: 0.5rem;
-    border-radius: 1rem;
 }
 
 .card-text {
     font-family: "Varela", sans-serif;
     color: #F3EAC0;
     text-align: left;
-    font-size: 1.5rem;
     line-height: 50%;
     letter-spacing: -3%;
     text-wrap: balance;
 }
-
-.bi-whatsapp {
-    font-size: 2.5rem;
-    margin-top: -0.7rem;
-    margin-right: -1rem;
-}
-
-.last-red {
-    width: 110%;
-}
-
-.seta {
-    font-size: 4rem;
-    margin-right: 50px;
-    color: #F3EAC0;
-}
-
-.carousel-inner{
-    padding-left: 8rem;
-    padding-right: 8rem;
-}
-
 /**************************************************************/
 
 /*painel de adoção*/
@@ -461,7 +794,7 @@ p {
 
 .footer {
     background-color: #004732;
-    width: 100vw;
+    width: 100%;
     display: block;
     margin: 0 auto;
     text-align: center;
