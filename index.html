@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <br />
-                        <div class="row mt-3 third-middle">
+                        <div class="row mt-3 third-middle" id="pc-text">
                             <div class="col-md-4 col-sm-12">
                                 <div class="align-items-center third-content">
                                     <p class="second-about agendastext">Agendas</p>
@@ -91,21 +91,24 @@
                         <div class="row px-4 third-middle">
                             <div class="col-md-3 col-sm-12">
                                 <div class="align-items-center third-content" id="textbox-left">
-                                    <img src="./assets/img/fAgendas.png">
+                                    <img src="./assets/img/fAgendas.png" id="img-pc">
+                                    <img src="./assets/img/fAgendasalt.png" style="margin-bottom: -2.5rem;" id="img-cell">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-12">
                                 <div class="align-items-center third-content">
-                                    <img src="./assets/img/fArrecadacao.png">
+                                    <img src="./assets/img/fArrecadacao.png" id="img-pc">
+                                    <img src="./assets/img/fArrecadacaoalt.png" style="margin-bottom: -2.5rem;" id="img-cell">
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-12">
                                 <div class="align-items-center third-content" id="textbox-right">
-                                    <img src="./assets/img/fLatinha.png">
+                                    <img src="./assets/img/fLatinha.png" id="img-pc">
+                                    <img src="./assets/img/fLatinhaalt.png" id="img-cell">
                                 </div>
                             </div>
                         </div>
-                        <br /> <br /> <br /> <br />
+                        <br /> <br />
                     </div>
                 </div>
             </div>
@@ -333,7 +336,10 @@
         </div>
     </div>
     <br /> <br />
-    <div class="container-fluid">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="assets/js/app.js"> </script>
+
     <div class="footer">
         <div class="divider-main"> </div>
         <div class="row rowcont">
@@ -351,9 +357,8 @@
             </div>
         </div>
     </div>
-</div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="assets/js/app.js"> </script>
+
+    
 </body>
 
 </html>
